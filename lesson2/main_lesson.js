@@ -5,26 +5,15 @@
     }
     var str = sum("asdasdasd","asdasdadad");
     console.log(str);
-       
 
-    var a = 10;
+    var tenpFunk = function(tempIter, counter){
+        var temp;
+        for (let i = 1; i <= counter; i++) {
+            temp*=i;
+        }
+        return temp;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 } () );
